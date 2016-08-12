@@ -18,6 +18,6 @@ Install the Python Image Library, which on freebsd can be done with:
 Configuration
 =============
 
- * __width__ specifies the scale width.
- * __height__ specifies the scale height.
- * __sleep__ specifies the amount of seconds to wait between lines sent. Useful to not annoy rate limiters.
+ * __width__ specifies the scale width. (defaults to 40)
+ * __height__ specifies the scale height. (defaults to 20)
+ * __sleep__ specifies the amount of seconds to wait between lines sent. Useful to not annoy rate limiters. (defaults to 0)
