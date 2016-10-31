@@ -8,6 +8,23 @@ from halibot import HalModule, Message
 
 class AA(HalModule):
 
+	options = {
+		"width": {
+			"type"    : "int",
+			"prompt"  : "Display width",
+			"default" : 40
+		},
+		"height": {
+			"type"    : "int",
+			"prompt"  : "Display height",
+			"default"  : 20
+		},
+		"sleep": {
+			"type": "int",
+			"prompt": "Delay between message lines",
+		},
+	}
+
 	def init(self):
 		pass
 
